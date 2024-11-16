@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime College Info Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff7f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Banner */
+.header .banner {
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #fff;
+  border-bottom: 5px solid #f9a8d4;
+}
+
+.header .banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header .banner p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: #f9a8d4;
+  padding: 0.5rem 1rem;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar li {
+  margin: 0 1rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  color: #db7093;
+}
+
+/* News Section */
+.news {
+  padding: 1rem;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.news-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.news-card h3 {
+  color: #db7093;
+  margin-bottom: 0.5rem;
+}
+
+/* Events Section */
+.events {
+  padding: 1rem;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.event-list li {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #f9a8d4;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+</style>
+<body>
+  <header class="header">
+    <div class="banner">
+      <h1>Anime College Info Hub</h1>
+      <p>Where Knowledge Meets Adventure</p>
+    </div>
+  </header>
+
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Latest Adventures</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="news">
+      <h2 class="section-title">🌸 Latest Adventures</h2>
+      <div class="news-grid">
+        <article class="news-card">
+          <h3>Spring Festival Announced!</h3>
+          <p>Join us for a day of fun, food, and festivities on April 10th!</p>
+        </article>
+        <article class="news-card">
+          <h3>New Anime Club Launch</h3>
+          <p>Discover the latest anime shows and connect with fellow fans every Friday.</p>
+        </article>
+        <article class="news-card">
+          <h3>Guest Lecture: Art of Animation</h3>
+          <p>Renowned animator Akira Sato shares his journey on November 20th.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="events">
+      <h2 class="section-title">🎉 Upcoming Events</h2>
+      <ul class="event-list">
+        <li>📅 Cosplay Workshop - November 18th</li>
+        <li>📅 Anime Trivia Night - November 25th</li>
+        <li>📅 Manga Drawing Contest - December 2nd</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Anime College Info Hub | Powered by Passion & Creativity</p>
+  </footer>
+</body>
+</html>
